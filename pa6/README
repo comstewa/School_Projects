@@ -1,0 +1,12 @@
+Connor Stewart
+Comstewa
+README
+PA6
+
+I used parts of prevous labs that I had worked on aswell as parts of lex from pa 5, used the bst form pa5 with adjustments ofcourse. but like next and prev and stuff are the same.
+README:  list of files and stuff
+Makefile:    provided  compiles my stuff
+Dictionary.h : header file provided
+Dictionary.c :the main work in this lab
+DictionaryTest.c : a simple test file
+Order.c : a simple program ordering some words
