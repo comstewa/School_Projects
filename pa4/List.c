@@ -45,7 +45,7 @@ List newList(void){
 	return L;
 }
 void freeList(List* pL){
-	//List del = *pL;
+	
 	type pp=length(*pL);
 	for(int i=0;i<pp;i++){
 		moveBack(*pL);
@@ -53,28 +53,10 @@ void freeList(List* pL){
 		
 		
 	}
-
-	//List poopoo = *pL;
-
-	
-	//List lastone=*pL;
-	//Nod
-	//while(letsgo!=NULL){
-	//	Node* next=letsgo->next;
-	//	free(letsgo);
-	//	letsgo=next;
-	//	deleteFront(*pL);
-
-	//while(front(*pL) != NULL){
-	//	deleteFront(*pL);
-//	}
-	//if(pL!=NULL && *pL!=NULL){
-		
-
 		free(*pL);
 		*pL=NULL;
 	
-	//}
+	
 } // Frees all heap memory associated with *pL, and sets
  	// *pL to NULL.
 	// Access functions -----------------------------------------------------------
@@ -403,11 +385,7 @@ List copyList(List L){
 		
 		temp=(temp->next);
 	}
-	//while(temp!=NULL){
-	//	append(B,temp->data);
-	//	(B->length)++;
-	//	temp=temp->next;
-	//}
+	
 	return B;
 } // Returns a new List representing the same integer
 	 // sequence as L. The cursor in the new list is undefined,
